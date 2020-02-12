@@ -1,0 +1,26 @@
+{
+  "name": "advancedreact",
+  "main": "lib/server.js",
+  "scripts": {
+    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -d"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "babel-polyfill": "^6.26.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "pm2": "^4.2.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "resolutions": {
+    "babel-core": "7.0.0-bridge.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-loader": "^8.0.6"
+  }
+}
